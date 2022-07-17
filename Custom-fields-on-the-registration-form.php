@@ -66,3 +66,5 @@ function cs_wc_save_extra_register_fields( $customer_id ) {
 }
 
 add_action( 'woocommerce_created_customer', 'cs_wc_save_extra_register_fields' );
+
+
